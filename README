@@ -1,3 +1,25 @@
-This is bomb 105.
+# Binary Bomb Lab
 
-It belongs to pcun (phillipp-cun@uiowa.edu)
+## Introduction
+
+The Binary Bomb Lab presents an engaging challenge where students are tasked with defusing a series of "binary bombs" created by the nefarious Dr. Evil. Each bomb consists of multiple phases, and the objective is to successfully input the correct string for each phase. Failure to do so results in the bomb exploding. The lab provides a hands-on experience in reverse engineering and debugging, encouraging students to use tools like gdb and objdump to analyze and defuse the binary bombs.
+
+## Step 1: Get Your Bomb
+
+To start the mission, students need to request their unique bomb by filling in a binary bomb request form. The bomb is then provided as a tar file containing the executable bomb, source code (bomb.c), and a README file identifying the bomb and its owners. Students are required to save the tar file, extract its contents, and navigate to the bomb's directory.
+
+## Step 2: Defuse Your Bomb
+
+The primary objective is to defuse the assigned bomb using a class machine. Running the bomb elsewhere may result in it exploding due to tamper-proofing mechanisms. Each explosion notifies the bomblab server, and points are deducted accordingly. The lab comprises six phases, with varying difficulty levels, and students are encouraged to use debuggers for a systematic approach to defusing.
+
+## Logistics
+
+The project is an individual undertaking, and all submissions are electronic. Progress is automatically tracked and updated on the class scoreboard. Clarifications and corrections are communicated through the course ICON page.
+
+## Hints
+
+While there are multiple ways to defuse the bomb, brute force is discouraged due to point deductions and potential network saturation. Students are advised to leverage tools like gdb, objdump, and strings for analysis. The README emphasizes the importance of using debuggers effectively, setting breakpoints, and inspecting memory states.
+
+## Conclusion
+
+The Binary Bomb Lab offers a thrilling challenge for students to apply reverse engineering skills, debuggers, and analysis tools. Successfully defusing each phase contributes to the overall score, with the lab serving as a practical exercise in handling real-world scenarios involving binary code and security challenges.
